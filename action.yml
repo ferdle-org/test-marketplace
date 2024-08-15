@@ -1,0 +1,9 @@
+name: Testing Marketplace
+
+runs-on: workflow_dispatch
+
+jobs:
+  print:
+    runs-on: ubuntu latest
+     - name: print
+       run: echo "Hi"
