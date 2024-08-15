@@ -1,0 +1,6 @@
+name: Test--Action-ferdleorg-reissue
+
+description: 'Testing Marketplace Title'
+runs:
+  using: 'node20'
+  main: 'lib/index.js'
