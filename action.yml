@@ -1,9 +1,6 @@
-name: Testing Marketplace
+name: Test Action ferdleorg reissue
 
-on: workflow_dispatch
-
-jobs:
-  print:
-    runs-on: ubuntu latest
-     - name: print
-       run: echo "Hi"
+description: 'Testing Marketplace Title'
+runs:
+  using: 'node20'
+  main: 'lib/index.js'
